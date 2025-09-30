@@ -16,7 +16,7 @@ export default function Post(){
             </div>
 
             <div class="flex flex-col md:flex-row-2 lg:flex-row mt-18 justify-around">
-                <div class="bg-[url(post-1.jpg)] bg-cover rounded-t-4xl rounded-br-4xl w-180">
+                <div class="bg-[url(/post-1.jpg)] bg-cover rounded-t-4xl rounded-br-4xl w-180">
                         {/* <div >
                         <img src="post-1.jpg" alt="" class="rounded-t-4xl rounded-br-4xl w-[600px] h-[400px]"/>
                          </div> */}

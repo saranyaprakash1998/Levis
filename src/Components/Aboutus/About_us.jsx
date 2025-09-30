@@ -8,7 +8,7 @@ import DotIcon from "../DotIcon/doticon";
 export default function AboutUs(){
     return(
         <div class="flex flex-col md:flex-row-2 lg:flex-row justify-around p-6 md:p-12 gap-10">
-            <div class="bg-[url(about-image.jpg)] rounded-t-full  bg-cover w-130">
+            <div class="bg-[url(/about-image.jpg)] rounded-t-full  bg-cover w-130">
                     
                 <div class="flex gap-4 bg-white rounded-t-2xl rounded-br-2xl p-4 shadow-md w-65 h-15 float-end mt-10">
                     <AiOutlineSafetyCertificate class="bg-emerald-600 text-white rounded-full text-2xl"/>
