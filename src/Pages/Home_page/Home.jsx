@@ -1,12 +1,13 @@
 import Button from "../../Components/Buttons/Button";
 import Icons from "./Icons";
+// import bannerimage from "../../assets/"
 
 
 export default function Home(){
     return(
         <div>
 
-        <div class="bg-[url(famimg.png)] bg-fixed  bg-cover text-white px-6 md:px-24 py-16 md:py-30">
+        <div class="bg-[url(/famimg.png)] bg-fixed  bg-cover text-white px-6 md:px-24 py-16 md:py-30">
             <h1 class="text-2xl md:text-5xl  ">Comprehensive</h1>
             <h1 class="text-3xl md:text-5xl "><b>insurance soulutions </b>for</h1>
             <h1 class="text-2xl md:text-5xl ">every stage of life</h1>
