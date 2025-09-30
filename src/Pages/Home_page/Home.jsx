@@ -1,0 +1,28 @@
+import Button from "../../Components/Buttons/Button";
+import Icons from "./Icons";
+
+
+export default function Home(){
+    return(
+        <div>
+
+        <div class="bg-[url(famimg.png)] bg-fixed  bg-cover text-white px-6 md:px-24 py-16 md:py-30">
+            <h1 class="text-2xl md:text-5xl  ">Comprehensive</h1>
+            <h1 class="text-3xl md:text-5xl "><b>insurance soulutions </b>for</h1>
+            <h1 class="text-2xl md:text-5xl ">every stage of life</h1>
+            <br />
+            <p class="text-sm md:text-lg max-w-2xl ">we offer a range of plans tailored to meet your unique needs.Let us help you find</p>
+            <p class="text-sm md:text-lg max-w-2xl">the right protection, so you can live with peace of mind.</p>
+            <br /><br />
+
+            <nav class="flex gap-10">
+            <Button>Get Free Quote</Button>
+            <Button>Get Free Quote</Button>
+            </nav>
+            
+            <Icons/>
+        </div>
+
+        </div>
+    )
+}
