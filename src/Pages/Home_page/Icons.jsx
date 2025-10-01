@@ -5,7 +5,7 @@ import { GrUserManager } from "react-icons/gr";
 export default function Icons() {
   return (
     <div>
-       <nav class="flex gap-10 mt-10 ">
+       <nav class="flex flex-col md:flex-row-2 lg:flex-row gap-10 mt-10 ">
 
             <div class="flex gap-4 group">
 

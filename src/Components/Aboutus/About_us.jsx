@@ -8,9 +8,31 @@ import DotIcon from "../DotIcon/doticon";
 export default function AboutUs(){
     return(
         <div class="flex flex-col md:flex-row-2 lg:flex-row justify-around p-6 md:p-12 gap-10">
-            <div class="bg-[url(/about-image.jpg)] rounded-t-full  bg-cover w-130">
+
+       <div class="relative w-full overflow-hidden">
+  <div class="bg-[url(/about-image.jpg)] bg-center bg-cover rounded-t-[50%] w-full max-w-[520px] mx-auto relative h-[400px] md:h-[600px] p-4">
+    
+    <div class="absolute top-[10%] right-[50%] translate-x-[50%] md:top-[10%] md:right-[50%] md:translate-x-[50%] lg:right-0 lg:translate-x-0 flex gap-2 bg-white rounded-xl p-3 shadow-lg w-fit">
+      <div class="bg-emerald-600 text-white rounded-full text-xl p-1 flex items-center justify-center">
+       <AiOutlineSafetyCertificate />
+      </div>
+      <h3 class="text-emerald-800 font-semibold text-center text-sm md:text-base">Fast Claims Processing</h3>
+    </div>
+    
+    <div class="absolute bottom-[-10px] left-[50%] translate-x-[-50%] md:bottom-[-20px] md:left-[20%] md:translate-x-0 bg-white rounded-t-xl rounded-br-xl p-4 shadow-lg w-[80%] max-w-[340px]">
+      <div class="bg-emerald-600 text-white rounded-full text-xl p-1 w-fit flex items-center justify-center">
+        <RiDoubleQuotesL />
+      </div>
+      <p class="text-gray-600  text-sm">Exceptional service and peace of mind.</p>
+      <p class="text-gray-600 font-bold text-sm">Highly recommend!</p>
+    </div>
+  </div>
+</div>
+
+
+            {/* <div class="bg-[url(/about-image.jpg)] rounded-t-full  bg-cover w-130">
                     
-                <div class="flex gap-4 bg-white rounded-t-2xl rounded-br-2xl p-4 shadow-md w-65 h-15 float-end mt-10">
+                <div class="flex gap-4 bg-white rounded-xl p-4 shadow-md w-60 h-14 float-end mt-10 ">
                     <AiOutlineSafetyCertificate class="bg-emerald-600 text-white rounded-full text-2xl"/>
                     <h3 class="text-emerald-800 font-semibold">Fast Claims Processing</h3>
                 </div>
@@ -24,7 +46,7 @@ export default function AboutUs(){
                        <p class="text-gray-600"> <strong>Highly recommend!</strong>
                     </p>
                 </div>
-            </div>
+            </div> */}
 
 
 
