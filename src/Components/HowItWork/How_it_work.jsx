@@ -10,14 +10,14 @@ import { TbNumber4 } from "react-icons/tb";
 
 export default function HowItWork(){
     return(
-        <div class="bg-zinc-100 p-25">
+        <div class="bg-zinc-100 p-6">
             <div class="text-center flex flex-col items-center max-w-2xl mx-auto ">
                 <nav class="flex gap-2 text-emerald-600 text-sm p-3">
                     <DotIcon/>
                     <h1>HOW IT WORK</h1>
                 </nav>
-                <h1 class="text-emerald-900 text-[40px]">Our insurance process <b> easy steps </b> to</h1>
-                <h1 class="text-emerald-900 text-[40px]">get covered</h1>
+                <h1 class="text-3xl md:text-4xl text-emerald-900 font-semibold leading-tight">
+                    Our insurance process <b> easy steps </b> to get covered</h1>
 
                 <p class="text-gray-600 p-4">Our comprehensive insurance services are designed to provide you with 
                     peace of mind,no matter your needs</p>

@@ -45,7 +45,7 @@ export default function AboutUs() {
                     Comprehensive <b className="font-extrabold">insurance</b> <br />
                     <b className="font-extrabold">solutions</b> for every need
                 </h1>
-                <br />
+                <br />  
 
                 
                 <div className="text-gray-600 mt-4 space-y-1">

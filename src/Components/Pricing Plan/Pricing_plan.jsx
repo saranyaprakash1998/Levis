@@ -11,8 +11,8 @@ export default function PricingPlan(){
                     <DotIcon/>
                     <h1>PRICING PLAN</h1>
                 </nav>
-                <h1  class="text-emerald-900 text-[40px]">Insurance <b>pricing plans</b> affordable </h1>
-                <h1  class="text-emerald-900 text-[40px]">coverage for every budget</h1>
+                <h1  class="text-emerald-900 text-3xl md:text-4xl">
+                    Insurance <b>pricing plans</b> affordable coverage for every budget</h1>
             </div>
 
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 p-12">

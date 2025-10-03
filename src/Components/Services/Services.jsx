@@ -6,19 +6,19 @@ import { BsCarFrontFill } from "react-icons/bs";
 
 export default function Services(){
     return(
-        <div class="bg-zinc-100 p-25">
+        <div class="bg-zinc-100 p-10 mb-16 mt-10">
             <div class="text-center flex flex-col items-center max-w-2xl mx-auto ">
             <nav class="flex gap-2 text-emerald-600 text-sm p-3">
                 <DotIcon/>
                  <h1>SERVICES</h1>
             </nav>
-            <h1 class="text-emerald-900 text-[40px]">Comprehensive <b>insurance</b> services</h1>
-            <p class="text-gray-600 p-6">Our comprehensive insurance services are designed to provide you 
+            <h1 class="text-3xl md:text-4xl text-emerald-900 font-semibold leading-tight">Comprehensive <b>insurance</b> services</h1>
+            <p class="text-gray-600 mt-4 mb-8 space-y-1">Our comprehensive insurance services are designed to provide you 
                 with peace of mind, no matter your needs</p>
             
             </div>
 
-            <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-4 gap-12 ">
+            <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-4 p-4 gap-6 ">
  
             <div class="bg-white rounded-t-4xl rounded-br-4xl p-10 shadow-md hover:bg-emerald-800 group transition-all duration-300 sm:w-100 md:w-70 lg:w-70">
                 <FaHandsHoldingChild class="mx-[5px] text-[50px] text-white bg-emerald-600 p-2 rounded-full no-underline  group-hover:bg-white group-hover:text-emerald-800 " />

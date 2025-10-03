@@ -11,15 +11,13 @@ export default function Post(){
                     <h1>POST/NEWS</h1>
                 </nav>
                 <h1 class="text-emerald-900 text-[40px] ">Our Latest <b>Insurance News</b> and Tips</h1>
-                <p class="text-gray-600 mt-4 ">Stay informed with our latest insurance news and tips. From expert advice on coverage to </p>
-                   <p class="text-gray-600  "> industry updates, we provide valuable insights to help you.</p> 
+                <p class="text-gray-600 mt-4 ">Stay informed with our latest insurance news and tips. From expert advice on coverage to
+                    industry updates, we provide valuable insights to help you.</p> 
             </div>
 
             <div class="flex flex-col md:flex-row-2 lg:flex-row mt-18 justify-around">
-                <div class="bg-[url(/post-1.jpg)] bg-cover rounded-t-4xl rounded-br-4xl w-180">
-                        {/* <div >
-                        <img src="post-1.jpg" alt="" class="rounded-t-4xl rounded-br-4xl w-[600px] h-[400px]"/>
-                         </div> */}
+                <div class="bg-[url(/post-1.jpg)] bg-cover rounded-t-4xl rounded-br-4xl  sm:w-150 md:w-150 lg:w-180">
+                       
                     <div class="text-white px-8 py-8 mt-80">
                         <nav class="flex items-center gap-2  font-bold">
                         <SlCalender />
@@ -36,7 +34,7 @@ export default function Post(){
 
                 <div class="mt-2">
                     <div class="mb-10">
-                        <div class="mx-auto max-w-md overflow-hidden rounded-xl bg-white shadow-md md:max-w-2xl">
+                        <div class="mx-auto max-w-md overflow-hidden rounded-t-4xl rounded-br-4xl bg-white shadow-md md:max-w-2xl">
                             <div class="md:flex">
                                 <div class="md:shrink-0">
                                     <img
@@ -63,7 +61,7 @@ export default function Post(){
                     </div>
 
                      <div>
-                        <div class="mx-auto max-w-md overflow-hidden rounded-xl bg-white shadow-md md:max-w-2xl">
+                        <div class="mx-auto max-w-md overflow-hidden rounded-t-4xl rounded-br-4xl bg-white shadow-md md:max-w-2xl">
                             <div class="md:flex">
                                 <div class="md:shrink-0">
                                     <img
