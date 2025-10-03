@@ -18,9 +18,9 @@ export default function Services(){
             
             </div>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 p-12">
+            <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-4 gap-12 ">
  
-            <div class="bg-white rounded-t-4xl rounded-br-4xl p-10 shadow-md hover:bg-emerald-800 group transition-all duration-300">
+            <div class="bg-white rounded-t-4xl rounded-br-4xl p-10 shadow-md hover:bg-emerald-800 group transition-all duration-300 sm:w-100 md:w-70 lg:w-70">
                 <FaHandsHoldingChild class="mx-[5px] text-[50px] text-white bg-emerald-600 p-2 rounded-full no-underline  group-hover:bg-white group-hover:text-emerald-800 " />
             <h1 class="text-emerald-800 font-semibold group-hover:text-white p-8">
              HealthInsurance
@@ -34,7 +34,7 @@ export default function Services(){
             </div>
 
  
-            <div class="bg-white rounded-t-4xl rounded-br-4xl p-10 shadow-md hover:bg-emerald-800 group transition-all duration-300">
+            <div class="bg-white rounded-t-4xl rounded-br-4xl p-10 shadow-md hover:bg-emerald-800 group transition-all duration-300 sm:w-100 md:w-70 lg:w-70">
             <FaHandsHoldingCircle class="mx-[5px] text-[50px] text-white bg-emerald-600 p-2 rounded-full no-underline group-hover:bg-white group-hover:text-emerald-800 "/>
             <h1 class="text-emerald-800 font-semibold group-hover:text-white p-8">
             Life Insurance
@@ -48,7 +48,7 @@ export default function Services(){
             </div>
 
  
-            <div class="bg-white rounded-t-4xl rounded-br-4xl p-10 shadow-md hover:bg-emerald-800 group transition-all duration-300">
+            <div class="bg-white rounded-t-4xl rounded-br-4xl p-10 shadow-md hover:bg-emerald-800 group transition-all duration-300 sm:w-100 md:w-70 lg:w-70">
             <IoMdBusiness class="mx-[5px] text-[50px] text-white bg-emerald-600 p-2 rounded-full no-underline group-hover:bg-white group-hover:text-emerald-800  "/>
             <h1 class="text-emerald-800 font-semibold group-hover:text-white p-8">
             BusinessInsurance
@@ -62,7 +62,7 @@ export default function Services(){
             </div>
 
   
-            <div class="bg-white rounded-t-4xl rounded-br-4xl p-10 shadow-md hover:bg-emerald-800 group transition-all duration-300">
+            <div class="bg-white rounded-t-4xl rounded-br-4xl p-10 shadow-md hover:bg-emerald-800 group transition-all duration-300 sm:w-100 md:w-70 lg:w-70">
             <BsCarFrontFill class="mx-[5px] text-[50px] text-white bg-emerald-600 p-2 rounded-full no-underline group-hover:bg-white group-hover:text-emerald-800  "/>
             <h1 class="text-emerald-800 font-semibold group-hover:text-white p-8">
             Car Insurance
