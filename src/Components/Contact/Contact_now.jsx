@@ -1,23 +1,37 @@
-
-
 export default function ContactNow(){
     return(
-        <div class="flex flex-col md:flex-row-2 lg:flex-row justify-around bg-teal-900 p-6">
+        
+        
+        <div className="flex flex-col md:flex-row justify-between items-center bg-teal-900 p-6 py-20  ">
 
-            <div class="mt-10 ">
-                <img src="cta-box-image.jpg" alt="" class="h-105 rounded-t-4xl rounded-br-4xl mb-10" />
+            
+            <div className="w-full md:w-5/12 lg:w-4/12 mb-8 md:mb-0">
+               
+                <img 
+                    src="cta-box-image.jpg" 
+                    alt="Image showing insurance benefits" 
+                    className="w-full h-auto object-cover rounded-t-3xl rounded-br-3xl" 
+                />
             </div>
 
-            <div class="mt-10 w-full md:w-1/2 p-4 md:p-0 mt-10 ">
-                <h1 class=" text-3xl md:text-4xl lg:text-4xl text-white font-semibold leading-tight">
-                    What matters most get your free insurance <b>Quote today!</b></h1>
-
-                <p className="text-white mt-8 mb-8 ">Whether it’s your home, health, car, or business, we’ve got you covered. Get your 
-                free insurance quote today and discover the peace of mind that comes with reliable,
-                comprehensive protection tailored to your needs.</p>
+            
+            <div className="w-full md:w-6/12 lg:w-7/12 p-0 md:pl-8">
+                
                
-                <button class="rounded-t-lg rounded-br-lg bg-white text-teal-800 font-bold p-3 mt-12">Contact Now</button>
+                <h1 className="text-3xl lg:text-5xl text-white  leading-tight mb-4">
+                    What matters most, get your free insurance <b>Quote today!</b>
+                </h1>
+
               
+                <p className="text-teal-50 mt-6 mb-8 lg:text-lg">
+                    Whether it’s your home, health, car, or business, we’ve got you covered. Get your 
+                    free insurance quote today and discover the peace of mind that comes with reliable,
+                    comprehensive protection tailored to your needs.
+                </p>
+               
+                <button className="rounded-t-xl rounded-br-xl bg-white text-teal-800 font-bold px-8 py-4 text-lg transition duration-300 hover:bg-teal-800 hover:text-white">
+                    Contact Now
+                </button>
             </div>
 
         </div>

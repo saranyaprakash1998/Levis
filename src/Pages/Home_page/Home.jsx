@@ -1,6 +1,6 @@
 import Button from "../../Components/Buttons/Button";
 import Icons from "./Icons";
-// import bannerimage from "../../assets/"
+
 
 
 export default function Home(){
